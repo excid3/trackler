@@ -2,7 +2,7 @@ require 'sinatra'
 require 'haml'
 require 'sass'
 
-get "/stylesheet.css" do |sheet|
+get "/stylesheet.css" do
   sass :stylesheet
 end
 
